@@ -1,0 +1,15 @@
+
+#include "include/resourse.h"
+
+
+S_MENU MENU
+BEGIN
+    POPUP "&Encrypt"
+    BEGIN
+        MENUITEM "&Encrypt",ENCRYPT
+    END
+    POPUP "&Descrypt"
+    BEGIN
+        MENUITEM "&Descrypt",DESC
+    END
+END

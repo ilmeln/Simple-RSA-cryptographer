@@ -1,0 +1,16 @@
+
+
+#include "include/resourse.h"
+
+
+KEY_MENU MENU
+BEGIN
+    POPUP "&Create key"
+    BEGIN
+        MENUITEM "&Create key",CREATE_KEY
+    END
+    POPUP "&Import key"
+    BEGIN
+        MENUITEM "&Import key",IMPORT_KEY
+    END
+END

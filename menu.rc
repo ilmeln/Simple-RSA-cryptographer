@@ -1,0 +1,15 @@
+
+#include "include/resourse.h"
+
+
+M_MENU MENU
+BEGIN
+    POPUP "&Keys"
+    BEGIN
+        MENUITEM "&Keys",KEYS
+    END
+    POPUP "&Shiphr"
+    BEGIN
+        MENUITEM "&Shiphr",SHIFR
+    END
+END
